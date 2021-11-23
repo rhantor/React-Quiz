@@ -1,4 +1,9 @@
 /* login component */
 .login {
-  height: 230px;
+  height: 250px;
+}
+@media only screen and (max-width: 600px) {
+  .login{
+    height: 300px;
+  }
 }
